@@ -22,13 +22,14 @@ UL.addEventListener("click", (e) => {
     }
     else if(e.target.tagName=="SPAN"){
         e.target.parentElement.remove();
-        
     }
     saveData();
 },false);
+
 function saveData(){
     localStorage.setItem("data",UL.innerHTML);
 }
+
 function showTask(){
     UL.innerHTML=localStorage.getItem("data");
 }

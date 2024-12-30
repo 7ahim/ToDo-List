@@ -4,13 +4,14 @@
     font-family: "Poppins",sans-serif;
     box-sizing: border-box;
 }
+
 .container{
     width: 100%;
     min-height: 100vh;
     background: linear-gradient(135deg,#153677,#4e085f);
     padding: 10px;
-    
 }
+
 .card{
     width:100%;
     max-width: 540px;
@@ -19,16 +20,19 @@
     margin: 100px auto 20px;
     padding: 40px 30px 70px;
 }
+
 .card h2{  
     color:#002765;
     display: flex;
     align-items: center;
     margin-bottom: 20px;
 }
+
 .card h2 img{
     width:30px;
     margin-left: 5px;
 }
+
 .inputpanel{
     display: flex;
     align-items: center;
@@ -37,8 +41,8 @@
     border-radius: 30px;
     padding-left: 20px;
     margin-bottom: 25px;
-    
 }
+
 .inputbox{
     border: none;
     outline: none;
@@ -47,6 +51,7 @@
     padding: 10px;
     font-weight: 14px;
 }
+
 .btn{ 
     border: none;
     outline: none;
@@ -57,6 +62,7 @@
     padding: 16px 50px;
     cursor:pointer;
 }
+
 ul li{
     list-style:none;
     font-size: 17px;
@@ -65,6 +71,7 @@ ul li{
     cursor: pointer;  
     position: relative;  
 }
+
 ul li::before{
     content: '';
     position: absolute;
@@ -77,13 +84,16 @@ ul li::before{
     top: 12px;
     left: 8px;
 }
+
 ul li.checked{
     color: #555;
     text-decoration: line-through;
 }
+
 ul li.checked::before{
     background-image: url("checked.png") ;
 }
+
 ul li span{
     position: absolute;
     right:0px;
@@ -94,9 +104,9 @@ ul li span{
     color: #555;
     line-height: 40px;
     text-align: center;
-    border-radius: 50%;
-    
+    border-radius: 50%;   
 }
+
 ul li span:hover{
     background-color: #edeef0;
     transition-duration: 600ms;
